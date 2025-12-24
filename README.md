@@ -361,13 +361,19 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 <img src="https://img.shields.io/badge/Machine_Learning_A--Z-Udemy-EC5252?style=for-the-badge&logo=udemy&logoColor=white" />
 
-**Year**: 2023
+**Year**: 2023  
+- Learned core ML algorithms: Linear Regression, KNN, SVM, Decision Trees  
+- Data preprocessing & model evaluation  
+- Hands-on projects using **Python & Scikit-learn**
 
 ---
 
 <img src="https://img.shields.io/badge/Artificial_Intelligence_A--Z-Udemy-EC5252?style=for-the-badge&logo=udemy&logoColor=white" />
 
-**Year**: 2023
+**Year**: 2023  
+- AI fundamentals & problem-solving techniques  
+- Basics of Reinforcement Learning  
+- Implemented AI models through real-world simulations
 
 </td>
 <td width="50%" valign="top">
