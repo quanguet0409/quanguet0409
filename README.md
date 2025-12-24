@@ -119,7 +119,7 @@ I'm passionate about leveraging **cutting-edge AI and satellite technology** to 
 - Ensemble machine learning (RF, XGBoost, LightGBM, CatBoost)
 - Geospatial analysis and visualization
 - Optimization algorithms (GA, PSO, ACO)
-- Field validation with 200+ ground truth stations
+- Field validation ground truth stations
 
 </details>
 
@@ -131,29 +131,23 @@ I'm passionate about leveraging **cutting-edge AI and satellite technology** to 
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="33%">
 <img src="https://img.icons8.com/color/96/000000/trophy.png" width="60"/>
 <br/><b>Merit Scholarship</b>
 <br/>Academic Excellence
 <br/>2024
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 <img src="https://img.icons8.com/color/96/000000/document.png" width="60"/>
 <br/><b>Published Paper</b>
 <br/>Journal of Science
 <br/>VNU - 2025
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 <img src="https://img.icons8.com/color/96/000000/test-passed.png" width="60"/>
 <br/><b>IELTS 7.5</b>
 <br/>Overall Score
 <br/>2023
-</td>
-<td align="center" width="25%">
-<img src="https://img.icons8.com/color/96/000000/code.png" width="60"/>
-<br/><b>10,000+</b>
-<br/>Satellite Observations
-<br/>Processed
 </td>
 </tr>
 </table>
@@ -319,51 +313,33 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 <div align="center">
 
-### 💻 Programming Languages
+### 💻 Programming & Tools
 
-![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-Advanced-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-Advanced-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-Intermediate-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Intermediate-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ### 🤖 AI & Machine Learning
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-Expert-FF6600?style=for-the-badge)
-![LightGBM](https://img.shields.io/badge/LightGBM-Expert-02569B?style=for-the-badge)
-![CatBoost](https://img.shields.io/badge/CatBoost-Advanced-FFCC00?style=for-the-badge)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge)
 
 ### 🛰️ Geospatial & Remote Sensing
 
-![ArcGIS](https://img.shields.io/badge/ArcGIS_Pro-Advanced-2C7AC3?style=for-the-badge)
-![QGIS](https://img.shields.io/badge/QGIS-Advanced-589632?style=for-the-badge&logo=qgis&logoColor=white)
-![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-Expert-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![GDAL](https://img.shields.io/badge/GDAL-Advanced-5CAE58?style=for-the-badge)
-![ENVI](https://img.shields.io/badge/ENVI-Intermediate-00A3E0?style=for-the-badge)
+![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?style=for-the-badge)
+![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
+![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![GDAL](https://img.shields.io/badge/GDAL-5CAE58?style=for-the-badge)
 
-### 📊 Data Science & Analysis
+### 📊 Data Science
 
-![Pandas](https://img.shields.io/badge/Pandas-Expert-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-Expert-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-Advanced-139C5A?style=for-the-badge)
-![Rasterio](https://img.shields.io/badge/Rasterio-Advanced-4A90E2?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-### 🔧 Tools & Platforms
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
 
 </div>
 
@@ -379,33 +355,17 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 <img src="https://img.shields.io/badge/IELTS-7.5_Overall-success?style=for-the-badge&logo=googlescholar&logoColor=white" />
 
-**Score Breakdown:**
-- 🎧 **Listening**: 8.0/9.0
-- 📖 **Reading**: 8.0/9.0
-- 💬 **Speaking**: 7.0/9.0
-- ✍️ **Writing**: 6.5/9.0
-
 **Year**: 2023
 
 ---
 
 <img src="https://img.shields.io/badge/Machine_Learning_A--Z-Udemy-EC5252?style=for-the-badge&logo=udemy&logoColor=white" />
 
-**Topics Covered:**
-- Supervised & Unsupervised Learning
-- Deep Learning & Neural Networks
-- Model Evaluation & Optimization
-
 **Year**: 2023
 
 ---
 
 <img src="https://img.shields.io/badge/Artificial_Intelligence_A--Z-Udemy-EC5252?style=for-the-badge&logo=udemy&logoColor=white" />
-
-**Topics Covered:**
-- AI Fundamentals
-- Reinforcement Learning
-- Practical AI Applications
 
 **Year**: 2023
 
