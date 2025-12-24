@@ -197,7 +197,7 @@ A comprehensive framework integrating **CYGNSS satellite data** with multi-sourc
 **⚙️ Technical Stack**
 ```
 ML: Random Forest, XGBoost, LightGBM, CatBoost
-Data: CYGNSS L1/L3, Landsat 8, Sentinel-2
+Data: CYGNSS L1/L3,...
 Tools: Python, PyTorch, GDAL, Rasterio
 GIS: ArcGIS Pro, QGIS, Google Earth Engine
 ```
