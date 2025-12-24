@@ -468,16 +468,10 @@ Collaboration:
 ## 📊 GitHub Statistics & Activity
 
 <div align="center">
-
-<!-- Streak Stats - Full Width -->
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=quanguet0409&theme=tokyonight&hide_border=true&stroke=6A5ACD&ring=6A5ACD&fire=FF6B6B&currStreakLabel=6A5ACD" />
-
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=quanguet0409&theme=tokyonight&hide_border=true" />
 <br/><br/>
-
-<!-- Stats Cards Side by Side -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=quanguet0409&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&card_width=400&icon_color=6A5ACD&title_color=6A5ACD" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=quanguet0409&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=400&title_color=6A5ACD" />
-
+<img src="https://github-readme-stats.vercel.app/api?username=quanguet0409&show_icons=true&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quanguet0409&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 ---
