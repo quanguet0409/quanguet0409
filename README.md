@@ -156,14 +156,6 @@ I'm passionate about leveraging **cutting-edge AI and satellite technology** to 
 
 ---
 
-## 📊 GitHub Activity & Contributions
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=quanguet0409&theme=tokyo-night&hide_border=true&area=true&custom_title=📈%20Contribution%20Activity%20Graph" width="100%" />
-
-</div>
-
 ---
 
 ## 🌟 Featured Research Projects
