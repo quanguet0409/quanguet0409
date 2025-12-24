@@ -211,7 +211,7 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 |--------|-------|
 | 🛰️ Satellite Data | CYGNSS L1/L3 |
 | 📍 Study Area | Mekong Delta |
-| 🎯 Accuracy | 98% |
+| 🎯 Accuracy | High |
 | 📏 Resolution | 30m |
 | 🗓️ Timeline | Jan 2025 - Present |
 | 📄 Status | Published |
