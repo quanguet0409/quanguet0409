@@ -468,10 +468,11 @@ Collaboration:
 ## 📊 GitHub Statistics & Activity
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=quanguet0409&theme=tokyonight&hide_border=true" />
+<!-- GitHub Streak Stats -->
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=quanguet0409&theme=tokyonight&hide_border=true" />
 <br/><br/>
-<img src="https://github-readme-stats.vercel.app/api?username=quanguet0409&show_icons=true&theme=tokyonight&hide_border=true" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quanguet0409&layout=compact&theme=tokyonight&hide_border=true" />
+<!-- GitHub Activity Graph -->
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=quanguet0409&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" />
 </div>
 
 ---
