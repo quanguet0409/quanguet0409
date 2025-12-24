@@ -396,10 +396,9 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 ---
 
-<img src="https://img.shields.io/badge/🎯_Top_25_Student-2023--2024-2196F3?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🎯_Top_Student-2023--2024-2196F3?style=for-the-badge" />
 
 **Achievement**: Academic Excellence  
-**GPA**: 3.2/4.0  
 **Recognition**: Consistent high performance
 
 </td>
