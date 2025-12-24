@@ -217,7 +217,7 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 | 📄 Status | Published |
 
 **🔬 Innovation**
-- First CYGNSS-based salinity mapping in Vietnam
+- CYGNSS-based salinity mapping in Vietnam
 - Multi-source data fusion approach
 - Real-time prediction capability
 - Scalable framework
@@ -257,7 +257,7 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 **Highlights**:
 - 🤖 5+ ML algorithms compared
-- 📈 F1-score > 0.92
+- 📈 F1-score > 0.8
 - 🗺️ Actionable hazard maps
 - 📊 Feature importance analysis
 
@@ -378,7 +378,7 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 **Achievement**: Excellent Academic Performance  
 **Institution**: UET - VNU Hanoi  
-**Recognition**: Top 10% of class
+
 
 ---
 
@@ -415,17 +415,15 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 - 🌍 **Lead Researcher** on CYGNSS satellite data processing for soil salinity mapping
 - 📊 **Collaborated** with 5+ researchers on environmental monitoring projects
-- 🔬 **Developed** automated ML pipelines for satellite data processing (50% time reduction)
-- 📈 **Presented** research findings at lab seminars and academic meetings
 - 💡 **Contributed** to 2+ research publications in peer-reviewed journals
 - 🛠️ **Created** interactive visualization dashboards for research insights
 
 **🔬 Technical Achievements:**
 
-- Processed **10,000+ CYGNSS satellite observations**
+- Processed **CYGNSS satellite observations**
 - Integrated **15+ environmental variables** from multiple sources
-- Achieved **98% prediction accuracy** with ensemble models
-- Validated results with **200+ ground truth stations**
+- Achieved **high prediction accuracy** with ensemble models
+- Validated results with **ground truth stations**
 - Developed **scalable framework** for real-time predictions
 
 </td>
@@ -435,14 +433,13 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 ```yaml
 Data_Processed:
-  CYGNSS: "10,000+ observations"
-  Landsat: "500+ scenes"
-  Sentinel: "300+ scenes"
+  CYGNSS
+  Auxiliary Data: "Enviromental", "Meteorological",...
 
 Models_Developed:
-  Ensemble_ML: "4 algorithms"
-  Accuracy: "98%"
-  Validation: "200+ stations"
+  Ensemble_ML: "5 algorithms"
+  Accuracy: "high"
+  Validation: "ground truth stations"
 
 Publications:
   Journal_Papers: 1
@@ -454,7 +451,7 @@ Time_Saved:
 
 Collaboration:
   Researchers: "5+ members"
-  Presentations: "3+ seminars"
+
 ```
 
 </td>
