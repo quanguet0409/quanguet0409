@@ -95,7 +95,7 @@ research_areas = {
 
 ### 🌐 Languages
 
-🇬🇧 **English**: IELTS 7.5 (L:8.0 R:8.0 S:7.0 W:6.5)  
+🇬🇧 **English**: IELTS 7.5
 🇻🇳 **Vietnamese**: Native
 
 </td>
@@ -111,7 +111,7 @@ I'm passionate about leveraging **cutting-edge AI and satellite technology** to 
 **🎯 Research Impact:**
 - 🌾 Supporting sustainable agriculture in Vietnam
 - 🗺️ Providing actionable insights for farmers and policymakers  
-- 📊 Processing 10,000+ satellite observations
+- 📊 Processing satellite observations
 - 🎓 Contributing to environmental science knowledge
 
 **🔬 Key Methodologies:**
@@ -119,7 +119,7 @@ I'm passionate about leveraging **cutting-edge AI and satellite technology** to 
 - Ensemble machine learning (RF, XGBoost, LightGBM, CatBoost)
 - Geospatial analysis and visualization
 - Optimization algorithms (GA, PSO, ACO)
-- Field validation ground truth stations
+- Field validationground truth stations
 
 </details>
 
@@ -188,11 +188,11 @@ A comprehensive framework integrating **CYGNSS satellite data** with multi-sourc
 
 **🎯 Key Achievements**
 - ✅ **98% Accuracy** with ensemble ML models
-- ✅ Processed **10,000+ CYGNSS observations**
+- ✅ Processed **CYGNSS observations**
 - ✅ Integrated **15+ environmental variables**
-- ✅ Validated with **200+ field stations**
+- ✅ Validated with **field stations**
 - ✅ Published in **Journal of Science (VNU)**
-- ✅ Generated **high-resolution risk maps**
+- ✅ Generated **risk maps**
 
 **⚙️ Technical Stack**
 ```
