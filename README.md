@@ -170,7 +170,8 @@ I'm passionate about leveraging **cutting-edge AI, satellite technology, and hig
 
 ### 🗺️ GeoLibre — Cloud-Native GIS & Spatial Intelligence Platform
 [![Repository](https://img.shields.io/badge/GitHub-opengeos%2FGeoLibre-181717?style=for-the-badge&logo=github)](https://github.com/opengeos/GeoLibre)
-[![PR #3203](https://img.shields.io/badge/PR_%233203-GeoArrow_Vector_Pipeline_%26_SIMD128-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/GeoLibre/pull/3203)
+[![PR #3191](https://img.shields.io/badge/PR_%233191-Zero--Copy_GeoArrow_Pipeline-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/GeoLibre/pull/3191)
+[![PR #3203](https://img.shields.io/badge/PR_%233203-SIMD128_WASM_Geoprocessing-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/GeoLibre/pull/3203)
 [![PR #3215](https://img.shields.io/badge/PR_%233215-Model_Builder_Control_Flow-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/GeoLibre/pull/3215)
 
 </div>
@@ -179,20 +180,31 @@ I'm passionate about leveraging **cutting-edge AI, satellite technology, and hig
 <tr>
 <td width="50%" valign="top">
 
-#### ⚡ Zero-Copy GeoArrow Pipeline & Multi-Threaded SIMD128 WASI ([#3203](https://github.com/opengeos/GeoLibre/pull/3203))
+#### ⚡ Zero-Copy GeoArrow Vector Pipeline ([#3191](https://github.com/opengeos/GeoLibre/pull/3191))
 
 - **Zero-Copy Binary Layout (`GeoArrowBatch`)**: Eliminated JS heap GC bottlenecks by storing coordinates in flat continuous arrays (`Float64Array`) and ring offsets (`Int32Array`).
-- **High-Throughput Vector Tiling**: Boosted worker tiling speeds by **1.9x to 7.3x** using direct binary buffers over structured clone.
-- **SIMD128 WASI Acceleration**: Implemented multi-threaded adaptive WebAssembly worker pools utilizing SIMD128 vector instructions.
-- **SQL Workspace Integration**: Added atomic layer creation and direct WKB decoding from DuckDB-WASM query results.
-- **Tech Stack**: `TypeScript`, `Apache Arrow`, `WebAssembly (WASI/SIMD128)`, `DuckDB-WASM`, `MapLibre GL`.
+- **High-Throughput Vector Tiling**: Boosted worker tiling speeds by **1.9x to 7.3x** using direct transferable binary buffers over structured clone.
+- **SQL Workspace Integration**: Added atomic spatial layer creation and direct WKB decoding from DuckDB-WASM query results.
+- **Tech Stack**: `TypeScript`, `Apache Arrow`, `GeoArrow`, `DuckDB-WASM`, `MapLibre GL`.
 
 </td>
 <td width="50%" valign="top">
 
-#### 🔄 Model Builder Control Flow: Loops & Branching ([#3215](https://github.com/opengeos/GeoLibre/pull/3215))
+#### 🚀 Multi-Threaded SIMD128 WASI Geoprocessing ([#3203](https://github.com/opengeos/GeoLibre/pull/3203))
 
-- **Cycle-Safe Iteration Topology**: Engineered forward-pipelined loop execution (`iterate-features`, `iterate-rasters`, `collect-results`) strictly verifiable by Kahn's DAG topological ordering.
+- **Hardware SIMD128 Acceleration**: Implemented multi-threaded adaptive WebAssembly worker pools utilizing 128-bit vector instructions for raster operations.
+- **Dynamic Worker Pool Scaling**: Scaled background execution across available CPU cores via `navigator.hardwareConcurrency` with adaptive load balancing.
+- **Zero-Copy Buffer Transfer**: Shared memory buffers and zero-copy transferable ArrayBuffers eliminating worker communication overhead.
+- **Tech Stack**: `TypeScript`, `WebAssembly (WASI/SIMD128)`, `Web Workers`, `Whitebox Tools`.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### 🔄 Model Builder Control Flow: Loops & Conditional Branching ([#3215](https://github.com/opengeos/GeoLibre/pull/3215))
+
+- **Cycle-Safe Iteration Topology**: Engineered forward-pipelined loop execution (`iterate-features`, `iterate-rasters`, `collect-results`) strictly verifiable by Kahn's DAG topological ordering without cycles.
 - **Conditional Branching & Dynamic Routing**: Implemented `conditional-switch` and `conditional-merge` routing with skipped signal propagation (`{ kind: "skipped" }`).
 - **Interactive Visual Canvas & Inspectors**: Designed custom multi-port control flow cards, port-level wiring, and property inspectors with live Dark/Light theme support.
 - **Tech Stack**: `React`, `TypeScript`, `DAG Topological Sorting`, `Kahn's Algorithm`, `Turf.js`.
@@ -574,7 +586,7 @@ Collaboration:
 
 **🎯 Responsibilities & Engineering Contributions:**
 
-- ⚡ **Engineered Zero-Copy GeoArrow Vector Pipeline** ([#3203](https://github.com/opengeos/GeoLibre/pull/3203)): Flattened coordinate arrays into continuous memory (`Float64Array`) with binary tiling protocol, speeding up worker transfer by **1.9x to 7.3x**.
+- ⚡ **Engineered Zero-Copy GeoArrow Vector Pipeline** ([#3191](https://github.com/opengeos/GeoLibre/pull/3191)): Flattened coordinate arrays into continuous memory (`Float64Array`) with binary tiling protocol, speeding up worker transfer by **1.9x to 7.3x**.
 - 🚀 **Enabled Multi-Threaded SIMD128 WASI Geoprocessing** ([#3203](https://github.com/opengeos/GeoLibre/pull/3203)): Integrated adaptive worker pool and SIMD128 hardware vector instructions for in-browser Whitebox geospatial tools.
 - 🔄 **Architected Cycle-Safe Model Builder Control Flow** ([#3215](https://github.com/opengeos/GeoLibre/pull/3215)): Implemented forward-pipelined iteration (`iterate-features`, `iterate-rasters`, `collect-results`) and dynamic branching (`conditional-switch`, `conditional-merge`) with Kahn's topological DAG validation.
 
@@ -590,7 +602,8 @@ Performance_Gains:
   Concurrency: "Multi-worker SIMD128 pool"
 
 Core_PRs:
-  - "#3203: GeoArrow & SIMD WASM"
+  - "#3191: Zero-Copy GeoArrow Pipeline"
+  - "#3203: Multi-Threaded SIMD128 WASM"
   - "#3215: Model Builder Control Flow"
 
 Test_Coverage:
