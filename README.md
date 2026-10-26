@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Pham%20Minh%20Quang&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20|%20Geospatial%20Intelligence%20Researcher&descSize=18&descAlignY=55" />
 
 <!-- Typing Animation with More Roles -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=6A5ACD&center=true&vCenter=true&width=800&lines=🤖+AI+%26+Machine+Learning+Engineer;🛰️+CYGNSS+Satellite+Data+Specialist;🗺️+Geospatial+AI+%26+Remote+Sensing;🌍+Environmental+AI+Applications;📊+Data+Science+%26+Optimization;✈️+Aerospace+Engineering+Student" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=6A5ACD&center=true&vCenter=true&width=800&lines=🤖+AI+%26+Machine+Learning+Engineer;🌐+GeoLibre+Core+Contributor;🛰️+CYGNSS+Satellite+Data+Specialist;🗺️+Geospatial+AI+%26+Remote+Sensing;🌍+Environmental+AI+Applications;📊+Data+Science+%26+Optimization;✈️+Aerospace+Engineering+Student" alt="Typing SVG" />
 
 <br/>
 
@@ -61,12 +61,13 @@ Status: Final Year Student
 🔬 **Final Thesis**: Advanced Soil Salinity Mapping  
 🛰️ **Technology**: CYGNSS Satellite Data + ML  
 📍 **Region**: Mekong Delta, Vietnam  
-📄 **Publication**: Journal of Science (VNU)
+📄 **Publication**: Journal of Science (VNU)  
+🌐 **Open Source**: Core Engineering on GeoLibre
 
 </td>
 <td width="50%" valign="top">
 
-### 🚀 Research Interests
+### 🚀 Research & Engineering Interests
 
 ```python
 research_areas = {
@@ -80,22 +81,23 @@ research_areas = {
         "Landsat & Sentinel",
         "Multi-source Integration"
     ],
-    "Applications": [
-        "Environmental Monitoring",
-        "Soil Salinity Mapping",
-        "Disaster Risk Assessment"
+    "High_Perf_GIS": [
+        "Apache Arrow / GeoArrow",
+        "WebAssembly (SIMD128)",
+        "Zero-Copy Vector Tiling",
+        "DAG Workflow Orchestration"
     ],
     "Tools": [
         "ArcGIS, QGIS, GEE",
-        "PyTorch, XGBoost",
-        "GeoPandas, Rasterio"
+        "PyTorch, TypeScript, DuckDB",
+        "GeoPandas, MapLibre GL"
     ]
 }
 ```
 
 ### 🌐 Languages
 
-🇬🇧 **English**: IELTS 7.5
+🇬🇧 **English**: IELTS 7.5  
 🇻🇳 **Vietnamese**: Native
 
 </td>
@@ -103,23 +105,21 @@ research_areas = {
 </table>
 
 <details>
-<summary>📖 <b>Read More About My Research Journey</b></summary>
+<summary>📖 <b>Read More About My Research & Engineering Journey</b></summary>
 <br/>
 
-I'm passionate about leveraging **cutting-edge AI and satellite technology** to address critical environmental challenges. My research focuses on integrating **CYGNSS satellite data** with advanced machine learning algorithms to create high-resolution soil salinity maps for the Mekong Delta region.
+I'm passionate about leveraging **cutting-edge AI, satellite technology, and high-performance systems engineering** to address critical environmental challenges. My work spans from integrating **CYGNSS satellite data** with advanced machine learning for environmental monitoring in the Mekong Delta, to building **cloud-native, zero-copy spatial computing architectures** in open-source geospatial software.
 
-**🎯 Research Impact:**
-- 🌾 Supporting sustainable agriculture in Vietnam
-- 🗺️ Providing actionable insights for farmers and policymakers  
-- 📊 Processing satellite observations
-- 🎓 Contributing to environmental science knowledge
+**🎯 Key Domains:**
+- 🌾 Supporting sustainable agriculture and environmental monitoring via satellite observations
+- ⚡ High-performance vector data streaming and binary geospatial engines
+- 🗺️ Visual workflow DAG engines and cycle-safe graph topological orchestration
+- 🎓 Contributing to peer-reviewed environmental science and open-source software
 
-**🔬 Key Methodologies:**
-- Multi-source satellite data fusion (CYGNSS, Landsat, Sentinel)
-- Ensemble machine learning (RF, XGBoost, LightGBM, CatBoost)
-- Geospatial analysis and visualization
-- Optimization algorithms (GA, PSO, ACO)
-- Field validationground truth stations
+**🔬 Methodologies & Tools:**
+- Multi-source satellite fusion (CYGNSS, Landsat, Sentinel)
+- Machine learning ensembles (RF, XGBoost, LightGBM, CatBoost)
+- Systems optimization: SIMD128 WebAssembly, GeoArrow binary IPC, web worker pools
 
 </details>
 
@@ -131,20 +131,26 @@ I'm passionate about leveraging **cutting-edge AI and satellite technology** to 
 
 <table>
 <tr>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/color/96/000000/trophy.png" width="60"/>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/trophy.png" width="55"/>
 <br/><b>Merit Scholarship</b>
 <br/>Academic Excellence
 <br/>2024
 </td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/color/96/000000/document.png" width="60"/>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/document.png" width="55"/>
 <br/><b>Published Paper</b>
 <br/>Journal of Science
 <br/>VNU - 2025
 </td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/color/96/000000/test-passed.png" width="60"/>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/source-code.png" width="55"/>
+<br/><b>Core Contributor</b>
+<br/>GeoLibre GIS Platform
+<br/>2026
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/test-passed.png" width="55"/>
 <br/><b>IELTS 7.5</b>
 <br/>Overall Score
 <br/>2023
@@ -155,6 +161,43 @@ I'm passionate about leveraging **cutting-edge AI and satellite technology** to 
 </div>
 
 ---
+
+## 🌐 Open Source Engineering & Contributions
+
+<div align="center">
+
+### 🗺️ GeoLibre — Cloud-Native GIS & Spatial Intelligence Platform
+[![Repository](https://img.shields.io/badge/GitHub-opengeos%2FGeoLibre-181717?style=for-the-badge&logo=github)](https://github.com/opengeos/GeoLibre)
+[![PR #3203](https://img.shields.io/badge/PR_%233203-GeoArrow_Vector_Pipeline_%26_SIMD128-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/GeoLibre/pull/3203)
+[![PR #3215](https://img.shields.io/badge/PR_%233215-Model_Builder_Control_Flow-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/GeoLibre/pull/3215)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚡ Zero-Copy GeoArrow Pipeline & Multi-Threaded SIMD128 WASI ([#3203](https://github.com/opengeos/GeoLibre/pull/3203))
+
+- **Zero-Copy Binary Layout (`GeoArrowBatch`)**: Eliminated JS heap GC bottlenecks by storing coordinates in flat continuous arrays (`Float64Array`) and ring offsets (`Int32Array`).
+- **High-Throughput Vector Tiling**: Boosted worker tiling speeds by **1.9x to 7.3x** using direct binary buffers over structured clone.
+- **SIMD128 WASI Acceleration**: Implemented multi-threaded adaptive WebAssembly worker pools utilizing SIMD128 vector instructions.
+- **SQL Workspace Integration**: Added atomic layer creation and direct WKB decoding from DuckDB-WASM query results.
+- **Tech Stack**: `TypeScript`, `Apache Arrow`, `WebAssembly (WASI/SIMD128)`, `DuckDB-WASM`, `MapLibre GL`.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔄 Model Builder Control Flow: Loops & Branching ([#3215](https://github.com/opengeos/GeoLibre/pull/3215))
+
+- **Cycle-Safe Iteration Topology**: Engineered forward-pipelined loop execution (`iterate-features`, `iterate-rasters`, `collect-results`) strictly verifiable by Kahn's DAG topological ordering.
+- **Conditional Branching & Dynamic Routing**: Implemented `conditional-switch` and `conditional-merge` routing with skipped signal propagation (`{ kind: "skipped" }`).
+- **Interactive Visual Canvas & Inspectors**: Designed custom multi-port control flow cards, port-level wiring, and property inspectors with live Dark/Light theme support.
+- **Tech Stack**: `React`, `TypeScript`, `DAG Topological Sorting`, `Kahn's Algorithm`, `Turf.js`.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -305,13 +348,15 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 <div align="center">
 
-### 💻 Programming & Tools
+### 💻 Programming & Frameworks
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ### 🤖 AI & Machine Learning
 
@@ -320,15 +365,18 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
 ![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge)
 
-### 🛰️ Geospatial & Remote Sensing
+### 🛰️ Geospatial & Cloud-Native GIS
 
 ![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?style=for-the-badge)
 ![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
 ![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![GDAL](https://img.shields.io/badge/GDAL-5CAE58?style=for-the-badge)
+![Apache Arrow](https://img.shields.io/badge/Apache_Arrow-E25A1C?style=for-the-badge&logo=apachearrow&logoColor=white)
+![MapLibre](https://img.shields.io/badge/MapLibre_GL-2C3E50?style=for-the-badge&logo=maplibre&logoColor=white)
 
-### 📊 Data Science
+### 📊 Data Science & High-Performance Engines
 
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
@@ -376,7 +424,6 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 
 **Achievement**: Excellent Academic Performance  
 **Institution**: UET - VNU Hanoi  
-
 
 ---
 
@@ -448,7 +495,43 @@ Time_Saved:
 
 Collaboration:
   Researchers: "5+ members"
+```
 
+</td>
+</tr>
+</table>
+
+### 🗺️ GeoLibre Open Source Project
+**Core Contributor & Spatial Systems Engineer** | *Oct 2026 - Present* | Open Source
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 Responsibilities & Engineering Contributions:**
+
+- ⚡ **Engineered Zero-Copy GeoArrow Vector Pipeline** ([#3203](https://github.com/opengeos/GeoLibre/pull/3203)): Flattened coordinate arrays into continuous memory (`Float64Array`) with binary tiling protocol, speeding up worker transfer by **1.9x to 7.3x**.
+- 🚀 **Enabled Multi-Threaded SIMD128 WASI Geoprocessing** ([#3203](https://github.com/opengeos/GeoLibre/pull/3203)): Integrated adaptive worker pool and SIMD128 hardware vector instructions for in-browser Whitebox geospatial tools.
+- 🔄 **Architected Cycle-Safe Model Builder Control Flow** ([#3215](https://github.com/opengeos/GeoLibre/pull/3215)): Implemented forward-pipelined iteration (`iterate-features`, `iterate-rasters`, `collect-results`) and dynamic branching (`conditional-switch`, `conditional-merge`) with Kahn's topological DAG validation.
+
+</td>
+<td width="40%">
+
+**📊 Engineering Metrics**
+
+```yaml
+Performance_Gains:
+  Tiling_Speed: "1.9x - 7.3x boost"
+  Heap_Memory: "Zero GC freezes on 50k+ geoms"
+  Concurrency: "Multi-worker SIMD128 pool"
+
+Core_PRs:
+  - "#3203: GeoArrow & SIMD WASM"
+  - "#3215: Model Builder Control Flow"
+
+Test_Coverage:
+  Unit_Tests: "540+ passing tests"
+  Quality: "Strict ratchet typecheck & lint"
 ```
 
 </td>
@@ -478,17 +561,17 @@ Collaboration:
 <td align="center" width="33%">
 <img src="https://img.icons8.com/color/96/000000/collaboration.png" width="80"/>
 <h3>🤝 Open to Collaboration</h3>
-<p>Research projects in AI, Remote Sensing, and Environmental Applications</p>
+<p>Research projects in AI, Remote Sensing, and Open Source High-Performance GIS</p>
 </td>
 <td align="center" width="33%">
 <img src="https://img.icons8.com/color/96/000000/chat.png" width="80"/>
 <h3>💬 Let's Discuss</h3>
-<p>Machine Learning, Geospatial Analysis, Satellite Data Processing</p>
+<p>Machine Learning, Geospatial Analysis, Satellite Data Processing, WebAssembly GIS</p>
 </td>
 <td align="center" width="33%">
 <img src="https://img.icons8.com/color/96/000000/networking.png" width="80"/>
 <h3>🌐 Networking</h3>
-<p>Academic discussions, project ideas, career opportunities</p>
+<p>Academic discussions, open-source projects, career opportunities</p>
 </td>
 </tr>
 </table>
@@ -507,7 +590,7 @@ Collaboration:
   </a>
 </p>
 
-### 💡 *"Applying AI to understand our planet and solve environmental challenges"*
+### 💡 *"Applying AI and high-performance computing to understand our planet and solve environmental challenges"*
 
 <br/>
 
