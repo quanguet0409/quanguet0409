@@ -207,7 +207,10 @@ I'm passionate about leveraging **cutting-edge AI, satellite technology, and hig
 
 ### 🦀 RustGIS — Pure-Rust High-Performance GIS Engine & Desktop/Web App
 [![Repository](https://img.shields.io/badge/GitHub-opengeos%2FRustGIS-181717?style=for-the-badge&logo=github)](https://github.com/opengeos/RustGIS)
-[![PR #718](https://img.shields.io/badge/PR_%23718-Zonal_Statistics_Engine_%26_Polygon_Clipping-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/RustGIS/pull/718)
+[![PR #718](https://img.shields.io/badge/PR_%23718-Zonal_Statistics_%26_Clipping-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/RustGIS/pull/718)
+[![PR #684](https://img.shields.io/badge/PR_%23684-Vietnam_VN--2000_CRS_Presets-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/RustGIS/pull/684)
+[![PR #660](https://img.shields.io/badge/PR_%23660-Ordinary_Kriging_Variograms-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/RustGIS/pull/660)
+[![PR #657](https://img.shields.io/badge/PR_%23657-Spatial_Join_Tool_%26_Command-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/RustGIS/pull/657)
 
 </div>
 
@@ -215,22 +218,45 @@ I'm passionate about leveraging **cutting-edge AI, satellite technology, and hig
 <tr>
 <td width="50%" valign="top">
 
-#### ⚡ Pure-Rust Zonal Statistics Engine (`gp.zonalStats`) ([#718](https://github.com/opengeos/RustGIS/pull/718))
+#### ⚡ Zonal Statistics Engine & Selection Clipping ([#718](https://github.com/opengeos/RustGIS/pull/718))
 
-- **High-Performance Zonal Extraction**: Architected pure-Rust scanline cell extraction engine (`zonal_statistics`, `Accumulator`) computing multi-band count, sum, mean, min, max, and stddev without runtime panics.
-- **Geospatial Safety & Topology Invariant**: Engineered hole-safe polygon scanline masking (`polygon_mask`), enforcing atomic hole validation so defective geometry never silently enlarges sampled raster area.
-- **Robust Multi-Band Processing**: Designed flexible band parsing (`all`, comma/semicolon/bracket-separated indices) with strict bounds validation and schema field collision resolution.
-- **Tech Stack**: `Rust`, `Memory-Safe Geospatial Algorithms`, `Raster Processing`, `WGS84 Lon/Lat Transformations`.
+- **Scanline Zonal Extraction**: Architected pure-Rust cell extraction engine (`zonal_statistics`, `Accumulator`) computing multi-band count, sum, mean, min, max, and stddev via Welford's algorithm without runtime allocations.
+- **Geospatial Safety & Hole Invariant**: Engineered scanline polygon masking (`polygon_mask`), enforcing atomic hole validation so defective geometry never silently enlarges sampled raster area.
+- **Reactive Workflow UI**: Implemented reactive egui state handling in `analysispane.rs` reflecting selection counts (`sel_count > 0`), with full `crate::i18n::fmt` localization.
+- **Tech Stack**: `Rust`, `egui`, `Scanline Rasterization`, `Welford Accumulator`, `i18n`.
 
 </td>
 <td width="50%" valign="top">
 
-#### 🎯 Selection-Aware Raster Processing & egui Integration ([#718](https://github.com/opengeos/RustGIS/pull/718))
+#### 🌐 Vietnam VN-2000 Coordinate System & Presets ([#684](https://github.com/opengeos/RustGIS/pull/684))
 
-- **Selection-Aware Clipping Architecture**: Extended `raster.process` with explicit `selectedOnly` parameter propagation, dynamic layer selection defaults, and non-destructive polygon fallbacks.
-- **Reactive egui Workflow UI**: Built reactive UI state handling in `analysispane.rs` that reflects dynamic selection counts (`sel_count > 0`) per frame until explicit user choice.
-- **Internationalization & Accessibility**: Implemented translatable selection count indicators using `crate::i18n::fmt` with named placeholders and added keyboard ergonomics (`Ctrl+Enter` / `⌘+Enter` script execution).
-- **Tech Stack**: `Rust`, `egui`, `Reactive State Flow`, `i18n Localization`, `Integration Testing`.
+- **National CRS Engine Support**: Integrated Vietnam National Coordinate Reference System (**VN-2000** / QĐ 973/2001/QĐ-TTg) natively into `rustgis-map` and projection pipelines.
+- **Transverse Mercator 3° & 6° Zones**: Implemented TM-3 and UTM Zone 48N/49N presets (EPSG:3405, EPSG:3406) with 7-parameter Helmert datum transformations (`+towgs84`).
+- **Provincial Central Meridian Presets**: Added automated meridian resolution for provinces across Vietnam (`hanoi`, `cantho`, `tphcm`, `haiphong`, `hue`, `danang`).
+- **Tech Stack**: `Rust`, `Map Projections`, `Transverse Mercator`, `Helmert Datum Transforms`.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 📈 Ordinary Kriging Interpolation & Variograms ([#660](https://github.com/opengeos/RustGIS/pull/660))
+
+- **BLUE Continuous Surface Reconstruction**: Implemented Ordinary Kriging geoprocessing tool (`kriging`) computing Best Linear Unbiased Estimator surfaces from scattered point measurements.
+- **Theoretical Semivariogram Models**: Built Spherical, Exponential, and Gaussian autocorrelation models with automated nugget, sill, and range parameter optimization.
+- **Zero-Allocation Local Solver**: Solves local $(k+1) x (k+1)$ Kriging systems ($k \le 32$) with Gaussian elimination and partial pivoting for sub-second execution.
+- **Dual Raster Outputs**: Generates both Prediction surfaces (`{name}.tif`) and Estimation Variance / Uncertainty maps (`{name}_variance.tif`).
+- **Tech Stack**: `Rust`, `Spatial Statistics`, `Variogram Modeling`, `Linear Algebra`.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔗 Spatial Join Geoprocessing Engine ([#657](https://github.com/opengeos/RustGIS/pull/657))
+
+- **Topological Predicate Engine**: Implemented `spatialJoin` tool and `gp.spatialJoin` engine command supporting `Intersects`, `Contains`, and `Within` relationships.
+- **Flexible Join Semantics**: Supported `Join one-to-one` (with match count aggregation) and `Join one-to-many`, plus left outer joins (`keepAll`) and inner joins.
+- **Automated Field Resolution**: Engineered configurable field prefixes and collision-resistant attribute deduplication when combining target and join schemas.
+- **Tech Stack**: `Rust`, `Vector Topology`, `Spatial Indexing`, `Schema Merging`.
 
 </td>
 </tr>
@@ -585,9 +611,10 @@ Test_Coverage:
 
 **🎯 Responsibilities & Engineering Contributions:**
 
-- ⚡ **Engineered Pure-Rust Zonal Statistics Tool (`gp.zonalStats`)** ([#718](https://github.com/opengeos/RustGIS/pull/718)): Built high-throughput scanline raster masking and multi-band zonal statistics accumulator for large-scale raster/vector intersection.
-- 🛡️ **Hardened Geospatial Polygon Safety**: Implemented hole-validation invariant ensuring defective interior rings never silently enlarge sampled raster window.
-- 🖥️ **Integrated Dynamic Selection-Aware Workflow UI**: Developed reactive egui analysis workflow handling layer selection defaults, internationalized count formatting, and headless regression coverage.
+- ⚡ **Engineered Pure-Rust Zonal Statistics Tool (`gp.zonalStats`)** ([#718](https://github.com/opengeos/RustGIS/pull/718)): Built high-throughput scanline raster masking, multi-band accumulator, and reactive egui workflow UI with localized formatting.
+- 🌐 **Architected Vietnam VN-2000 Coordinate System** ([#684](https://github.com/opengeos/RustGIS/pull/684)): Integrated native VN-2000 TM-3/UTM projection presets, 7-parameter Helmert transforms, and provincial central meridian aliases.
+- 📈 **Built Ordinary Kriging Interpolation Tool** ([#660](https://github.com/opengeos/RustGIS/pull/660)): Implemented BLUE spatial surface estimation, Spherical/Exponential/Gaussian variogram models, and dual Prediction & Variance raster outputs.
+- 🔗 **Engineered Spatial Join Engine (`gp.spatialJoin`)** ([#657](https://github.com/opengeos/RustGIS/pull/657)): Developed spatial predicate engine (`Intersects`, `Contains`, `Within`) with one-to-one/one-to-many joins and collision-safe schema merging.
 
 </td>
 <td width="40%">
@@ -596,15 +623,18 @@ Test_Coverage:
 
 ```yaml
 Performance_Gains:
-  Scanline_Masking: "Zero GC, scanline polygon fill"
-  Safety: "Zero panic / deny(clippy::unwrap_used)"
-  Throughput: "Multi-band raster aggregation"
+  Memory_Safety: "Pure Rust, zero unwrap/panic"
+  Kriging_Solver: "Zero-allocation local (k+1) solve"
+  Scanline_Mask: "Zero GC, scanline polygon fill"
 
 Core_PRs:
   - "#718: Zonal Statistics & Clipping"
+  - "#684: Vietnam VN-2000 Coordinate System"
+  - "#660: Ordinary Kriging & Variograms"
+  - "#657: Spatial Join Engine & Predicates"
 
 Test_Coverage:
-  Unit_Tests: "72+ analysis tests & smoke suite"
+  Unit_Tests: "150+ geoprocessing tests & suites"
   Quality: "100% Green CI on Linux/wasm32"
 ```
 
