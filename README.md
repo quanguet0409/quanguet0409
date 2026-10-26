@@ -62,7 +62,7 @@ Status: Final Year Student
 🛰️ **Technology**: CYGNSS Satellite Data + ML  
 📍 **Region**: Mekong Delta, Vietnam  
 📄 **Publication**: Journal of Science (VNU)  
-🌐 **Open Source**: Core Engineering on GeoLibre
+🌐 **Open Source**: Core Engineering on GeoLibre & RustGIS
 
 </td>
 <td width="50%" valign="top">
@@ -82,14 +82,16 @@ research_areas = {
         "Multi-source Integration"
     ],
     "High_Perf_GIS": [
+        "Pure-Rust Geospatial Engines",
         "Apache Arrow / GeoArrow",
         "WebAssembly (SIMD128)",
         "Zero-Copy Vector Tiling",
         "DAG Workflow Orchestration"
     ],
     "Tools": [
+        "Rust, Python, TypeScript",
         "ArcGIS, QGIS, GEE",
-        "PyTorch, TypeScript, DuckDB",
+        "PyTorch, DuckDB, egui",
         "GeoPandas, MapLibre GL"
     ]
 }
@@ -194,6 +196,41 @@ I'm passionate about leveraging **cutting-edge AI, satellite technology, and hig
 - **Conditional Branching & Dynamic Routing**: Implemented `conditional-switch` and `conditional-merge` routing with skipped signal propagation (`{ kind: "skipped" }`).
 - **Interactive Visual Canvas & Inspectors**: Designed custom multi-port control flow cards, port-level wiring, and property inspectors with live Dark/Light theme support.
 - **Tech Stack**: `React`, `TypeScript`, `DAG Topological Sorting`, `Kahn's Algorithm`, `Turf.js`.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+### 🦀 RustGIS — Pure-Rust High-Performance GIS Engine & Desktop/Web App
+[![Repository](https://img.shields.io/badge/GitHub-opengeos%2FRustGIS-181717?style=for-the-badge&logo=github)](https://github.com/opengeos/RustGIS)
+[![PR #718](https://img.shields.io/badge/PR_%23718-Zonal_Statistics_Engine_%26_Polygon_Clipping-2ea44f?style=for-the-badge&logo=git)](https://github.com/opengeos/RustGIS/pull/718)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚡ Pure-Rust Zonal Statistics Engine (`gp.zonalStats`) ([#718](https://github.com/opengeos/RustGIS/pull/718))
+
+- **High-Performance Zonal Extraction**: Architected pure-Rust scanline cell extraction engine (`zonal_statistics`, `Accumulator`) computing multi-band count, sum, mean, min, max, and stddev without runtime panics.
+- **Geospatial Safety & Topology Invariant**: Engineered hole-safe polygon scanline masking (`polygon_mask`), enforcing atomic hole validation so defective geometry never silently enlarges sampled raster area.
+- **Robust Multi-Band Processing**: Designed flexible band parsing (`all`, comma/semicolon/bracket-separated indices) with strict bounds validation and schema field collision resolution.
+- **Tech Stack**: `Rust`, `Memory-Safe Geospatial Algorithms`, `Raster Processing`, `WGS84 Lon/Lat Transformations`.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🎯 Selection-Aware Raster Processing & egui Integration ([#718](https://github.com/opengeos/RustGIS/pull/718))
+
+- **Selection-Aware Clipping Architecture**: Extended `raster.process` with explicit `selectedOnly` parameter propagation, dynamic layer selection defaults, and non-destructive polygon fallbacks.
+- **Reactive egui Workflow UI**: Built reactive UI state handling in `analysispane.rs` that reflects dynamic selection counts (`sel_count > 0`) per frame until explicit user choice.
+- **Internationalization & Accessibility**: Implemented translatable selection count indicators using `crate::i18n::fmt` with named placeholders and added keyboard ergonomics (`Ctrl+Enter` / `⌘+Enter` script execution).
+- **Tech Stack**: `Rust`, `egui`, `Reactive State Flow`, `i18n Localization`, `Integration Testing`.
 
 </td>
 </tr>
@@ -351,6 +388,7 @@ GIS: ArcGIS Pro, QGIS, Google Earth Engine
 ### 💻 Programming & Frameworks
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -532,6 +570,42 @@ Core_PRs:
 Test_Coverage:
   Unit_Tests: "540+ passing tests"
   Quality: "Strict ratchet typecheck & lint"
+```
+
+</td>
+</tr>
+</table>
+
+### 🦀 RustGIS Open Source Project
+**Core Contributor & Spatial Systems Engineer** | *Oct 2026 - Present* | Open Source
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 Responsibilities & Engineering Contributions:**
+
+- ⚡ **Engineered Pure-Rust Zonal Statistics Tool (`gp.zonalStats`)** ([#718](https://github.com/opengeos/RustGIS/pull/718)): Built high-throughput scanline raster masking and multi-band zonal statistics accumulator for large-scale raster/vector intersection.
+- 🛡️ **Hardened Geospatial Polygon Safety**: Implemented hole-validation invariant ensuring defective interior rings never silently enlarge sampled raster window.
+- 🖥️ **Integrated Dynamic Selection-Aware Workflow UI**: Developed reactive egui analysis workflow handling layer selection defaults, internationalized count formatting, and headless regression coverage.
+
+</td>
+<td width="40%">
+
+**📊 Engineering Metrics**
+
+```yaml
+Performance_Gains:
+  Scanline_Masking: "Zero GC, scanline polygon fill"
+  Safety: "Zero panic / deny(clippy::unwrap_used)"
+  Throughput: "Multi-band raster aggregation"
+
+Core_PRs:
+  - "#718: Zonal Statistics & Clipping"
+
+Test_Coverage:
+  Unit_Tests: "72+ analysis tests & smoke suite"
+  Quality: "100% Green CI on Linux/wasm32"
 ```
 
 </td>
